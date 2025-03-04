@@ -19,7 +19,7 @@ CONJUNTO agregar(CONJUNTO c ,DATO d){
 
 bool pertenece(CONJUNTO c, DATO d){
     if(!es_vacio(c)){
-        for(int= i=0; i < c.cant; i++){
+        for(int i=0; i < c.cant; i++){
             if(c.datos[i]==d) return true;
         }
     }
@@ -56,7 +56,7 @@ int cardinal(CONJUNTO c){
 
 CONJUNTO Union(CONJUNTO c, CONJUNTO d){
     CONJUNTO t = c;
-    for(int i=0; 1<  d.cant; i++){
+    for(int i = 0; i < d.cant; i++){
         t = agregar(t, d.datos[i]);
     }
     return t;

@@ -1,13 +1,13 @@
-#ifndef __CONJUNTO.H__
-#define __CONJUNTO.H__      
+#ifndef __CONJUNTO_H__
+#define __CONJUNTO_H__      
 #define TAM 1000
 #include <stdbool.h>
 
 typedef int DATO;
 
 typedef struct Conjunto{
-    DATO datos[TAM]
-    short cant 
+    DATO datos[TAM];
+    short cant;
 } CONJUNTO;
 
 CONJUNTO conjunto_vacio();

@@ -18,17 +18,20 @@ int main(){
     c = agregar(c, 11);
     c = agregar(c, 15);
     print_conjunto(c);
+    printf("c\n");
 
-    d = agregar(c, 2);
-    d = agregar(c, 22);
-    d = agregar(c, 12);
-    d = agregar(c, 13);
-    d = agregar(c, 16);
-    d = agregar(c, 24);
+    d = agregar(d, 2);
+    d = agregar(d, 22);
+    d = agregar(d, 12);
+    d = agregar(d, 13);
+    d = agregar(d, 16);
+    d = agregar(d, 24);
     print_conjunto(d);
+    printf("d\n");
 
     e = Union(c, d);
     print_conjunto(e);
+    printf("e\n");
 
 
     return 0;
