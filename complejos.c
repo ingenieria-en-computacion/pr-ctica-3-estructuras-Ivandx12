@@ -37,16 +37,3 @@ COMPLEJOS Suma(COMPLEJOS c1, COMPLEJOS c2) {
     return resultado;
 }
 
-COMPLEJOS Producto(COMPLEJOS c1, COMPLEJOS c2) {
-    COMPLEJOS resultado;
-    resultado.real = c1.real * c2.real - c1.imaginario * c2.imaginario;
-    resultado.imaginario = c1.real * c2.imaginario + c1.imaginario * c2.real;
-    return resultado;
-}
-
-COMPLEJOS Conjugado(COMPLEJOS c) {
-    COMPLEJOS resultado;
-    resultado.real = c.real;
-    resultado.imaginario = -c.imaginario;
-    return resultado;
-}
